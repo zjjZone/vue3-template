@@ -4,15 +4,25 @@
       "name": "tailwind",
       "type": "list",
       "message": "使用 tailwind?",
-      "choices": ["yes", "no"]
+      "choices": [
+        "yes",
+        "no"
+      ]
     }
   ],
   "copy": {
     "tailwind": {
-      "value": true,
-      "source": "",
-      "target": "src/"
+      "value": "yes",
+      "path": [
+        {
+          "from": "tailwind",
+          "to": ""
+        }
+      ]
     }
   },
-  "target": []
+  "target": [
+    "package.josn",
+    "src/style.css"
+  ]
 }
