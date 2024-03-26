@@ -1,5 +1,12 @@
 {
-  "question": [],
+  "question": [
+    {
+      "name": "tailwind",
+      "type": "list",
+      "message": "使用 tailwind?",
+      "choices": ["yes", "no"]
+    }
+  ],
   "copy": {
     "tailwind": {
       "value": true,
