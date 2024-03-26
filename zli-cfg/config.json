@@ -1,0 +1,11 @@
+{
+  "question": [],
+  "copy": {
+    "tailwind": {
+      "value": true,
+      "source": "",
+      "target": "src/"
+    }
+  },
+  "target": []
+}
