@@ -22,7 +22,7 @@
     }
   },
   "target": [
-    "package.josn",
+    "package.json",
     "src/style.css"
   ]
 }
