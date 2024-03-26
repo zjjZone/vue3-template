@@ -1,4 +1,4 @@
-<% if (tailwind) { %>
+<% if (tailwind === 'yes') { %>
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
